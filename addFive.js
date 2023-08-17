@@ -1,6 +1,9 @@
 function addFive (val){
     return val+5;
 }
+function helper(){
+    console.log('helllo')
+}
 
 module.exports =addFive
 
@@ -12,3 +15,4 @@ module.exports =addFive
 //     "test": "jest"
 // },
 // to run .... npm run test
+// add --coverage to test 'jest --coverage' in package.json to see how much of your code had been tested

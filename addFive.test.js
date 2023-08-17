@@ -1,5 +1,5 @@
 
-const {default: TestRunner} = require('jest-runner')
+// const {default: TestRunner} = require('jest-runner')  not necessary
 
 const addFive=require('./addFive')
 
